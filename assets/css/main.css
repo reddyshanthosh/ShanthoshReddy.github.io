@@ -2318,7 +2318,7 @@ button.alt:active,
 /* Footer */
 /* Footer section */
 footer {
-  background-color: #333; /* Dark grey background */
+  background-color: darkgray; /* Dark grey background */
   color: #fff; /* White text */
   padding: 50px 0;
   position: fixed;
