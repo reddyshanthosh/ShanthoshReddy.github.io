@@ -2318,9 +2318,13 @@ button.alt:active,
 /* Footer */
 /* Footer section */
 footer {
-  background-color: orange;
-  color: #666;
+  background-color: #333; /* Dark grey background */
+  color: #fff; /* White text */
   padding: 50px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 footer p {
@@ -2342,14 +2346,15 @@ footer p {
 }
 
 .footer-icons li a {
-  color: #666;
+  color: #fff; /* White text */
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .footer-icons li a:hover {
-  color: #333;
+  color: #ccc; /* Light grey on hover */
 }
+
 
 /* Copyright */
 
