@@ -112,7 +112,8 @@ section {
 
 body {
 	line-height: 1;
-}
+	margin: 0 auto; 
+  width: 80%;
 
 ol,
 ul {
