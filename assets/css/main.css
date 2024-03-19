@@ -2318,37 +2318,37 @@ button.alt:active,
 /* Footer */
 /* Footer section */
 footer {
-  background-color: orange; /* Change this to the desired background color */
-  color: #fff; /* Text color */
-  padding: 50px 0; /* Padding */
+  background-color: orange;
+  color: #666;
+  padding: 50px 0;
 }
 
 footer p {
-  font-size: 1.1em; /* Font size */
-  margin-bottom: 20px; /* Bottom margin */
+  font-size: 1.1em;
+  margin-bottom: 20px;
 }
 
 .footer-icons {
-  margin-bottom: 20px; /* Bottom margin */
+  margin-bottom: 20px;
 }
 
 .footer-icons li {
-  display: inline-block; /* Display items in a row */
-  margin-right: 20px; /* Right margin between items */
+  display: inline-block;
+  margin-right: 20px;
 }
 
 .footer-icons li:last-child {
-  margin-right: 0; /* Remove right margin for the last item */
+  margin-right: 0;
 }
 
 .footer-icons li a {
-  color: #fff; /* Icon link color */
-  text-decoration: none; /* Remove underline */
-  transition: color 0.3s; /* Smooth color transition */
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
 .footer-icons li a:hover {
-  color: #ccc; /* Change color on hover */
+  color: #333;
 }
 
 /* Copyright */
