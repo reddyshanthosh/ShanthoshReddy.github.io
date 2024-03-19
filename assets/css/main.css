@@ -2318,13 +2318,9 @@ button.alt:active,
 /* Footer */
 /* Footer section */
 footer {
-  background-color: darkgray; /* Dark grey background */
-  color: #fff; /* White text */
+  background-color: #ed786d;
+  color: #fff; /* White text color */
   padding: 50px 0;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
 }
 
 footer p {
@@ -2346,13 +2342,13 @@ footer p {
 }
 
 .footer-icons li a {
-  color: #fff; /* White text */
+  color: #fff; /* White text color for links */
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .footer-icons li a:hover {
-  color: #ccc; /* Light grey on hover */
+  color: #ccc; /* Light grey color on hover */
 }
 
 
