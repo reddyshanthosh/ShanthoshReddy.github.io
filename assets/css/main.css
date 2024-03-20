@@ -1764,7 +1764,20 @@ input, select, textarea {
 		ol li {
 			padding-left: 0.25em;
 		}
-
+	.image-box {
+			width: 100%; /* Adjust width as needed */
+			height: auto; /* Adjust height as needed */
+			background-color: #f0f0f0; /* Background color */
+			border-radius: 10px; /* Rounded corners */
+			overflow: hidden; /* Hide overflow content */
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+	}
+	
+	.image-box img {
+			display: block;
+			width: 100%; /* Image width */
+			height: auto; /* Maintain aspect ratio */
+	}
 /* Social */
 
 	ul.social {
