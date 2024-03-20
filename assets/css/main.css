@@ -112,8 +112,7 @@ section {
 
 body {
 	line-height: 1;
-	margin: 0 auto; 
-  width: 80%;
+}
 
 ol,
 ul {
@@ -2317,11 +2316,14 @@ button.alt:active,
 }
 
 /* Footer */
-/* Footer section */
 footer {
-  background-color: #ed786d;
-  color: #fff; /* White text color */
+  background-color: #ed786d; 
+  color: #fff; /* White text */
   padding: 50px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 footer p {
@@ -2343,13 +2345,13 @@ footer p {
 }
 
 .footer-icons li a {
-  color: #fff; /* White text color for links */
+  color: #fff; /* White text */
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .footer-icons li a:hover {
-  color: #ccc; /* Light grey color on hover */
+  color: #ccc; /* Light grey on hover */
 }
 
 
