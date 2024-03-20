@@ -1765,7 +1765,7 @@ input, select, textarea {
 		ol li {
 			padding-left: 0.25em;
 		}
-	.image-box {
+		.image-box {
 			width: 100%; /* Adjust width as needed */
 			height: auto; /* Adjust height as needed */
 			background-color: #f0f0f0; /* Background color */
@@ -1777,9 +1777,11 @@ input, select, textarea {
 	.image-box img {
 			display: block;
 			width: 100%; /* Image width */
-			height: auto; /* Maintain aspect ratio */
+			height: 100%; /* Image height */
+			object-fit: cover; /* Ensure the image covers the container */
+			border-radius: 10px; /* Maintain rounded corners */
 	}
-/* Social */
+	/* Social */
 
 	ul.social {
 		cursor: default;
