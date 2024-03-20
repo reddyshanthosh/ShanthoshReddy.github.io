@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
 /*
 	Miniport by HTML5 UP
@@ -1765,8 +1766,8 @@ input, select, textarea {
 			padding-left: 0.25em;
 		}
 	.image-box {
-			width: 200px; /* Adjust width as needed */
-			height: 200px; /* Adjust height as needed */
+			width: 100%; /* Adjust width as needed */
+			height: auto; /* Adjust height as needed */
 			background-color: #f0f0f0; /* Background color */
 			border-radius: 10px; /* Rounded corners */
 			overflow: hidden; /* Hide overflow content */
